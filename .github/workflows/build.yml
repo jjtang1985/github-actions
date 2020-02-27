@@ -35,8 +35,8 @@ jobs:
       - run: npm run bootstrap
       - name: Canary Release
         run: |
-          npm whoami
           echo '//registry.npmjs.org/:_authToken=${NPM_TOKEN}' >> .npmrc
+          npm whoami
           npm run release-canary
         env:
           NPM_TOKEN: ${{ secrets.NPMJS_ACCESS_TOKEN }}
