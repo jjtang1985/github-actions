@@ -36,7 +36,6 @@ jobs:
       - name: Canary Release
         run: |
           echo '//registry.npmjs.org/:_authToken=${NPM_TOKEN}' >> .npmrc
-          npm whoami
           echo npm config set _auth ${NPM_TOKEN}
           npm whoami
           npm run release-canary
