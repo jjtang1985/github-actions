@@ -13,7 +13,7 @@
     "check-license": "npx license-checker --onlyAllow MIT\\;Apache\\;ISC\\;BSD\\;WTFPL\\;Artistic\\;CC-BY\\;CC0\\;Unlicense",
     "release-canary": "lerna publish --force-publish --canary minor --yes",
     "release": "lerna publish from-git --yes",
-    "prompt-version:minor": "lerna version minor --yes"
+    "bump-version:minor": "lerna version minor --yes"
   },
   "author": "junjie",
   "devDependencies": {
