@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>DestinationOrigin | SAP Cloud SDK for JavaScript / TypeScript</title>
+	<title>GlobalNameFormatter | SAP Cloud SDK for JavaScript / TypeScript</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -54,65 +54,126 @@
 					<a href="../globals.html">Globals</a>
 				</li>
 				<li>
-					<a href="../modules/sap_cloud_sdk_core">@sap-cloud-sdk/core</a>
+					<a href="../modules/sap_cloud_sdk_generator">@sap-cloud-sdk/generator</a>
 				</li>
 				<li>
-					<a href="sap_cloud_sdk_core.destinationorigin">DestinationOrigin</a>
+					<a href="sap_cloud_sdk_generator.globalnameformatter">GlobalNameFormatter</a>
 				</li>
 			</ul>
-			<h1>Enumeration DestinationOrigin</h1>
+			<h1>Class GlobalNameFormatter</h1>
 		</div>
 	</div>
 </header>
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
-			<section class="tsd-panel tsd-comment">
-				<div class="tsd-comment tsd-typography">
-					<dl class="tsd-comment-tags">
-						<dt>deprecated</dt>
-						<dd><p>Since v1.0.1.</p>
-							<p>Represents the origin of a destination in a multi-tenant setup on SAP Cloud Platform.</p>
-							<p>In a multi-tenant application on SAP Cloud Platform, destinations can be defined both on provider account level (&quot;PaaS tenant&quot;) as well as on the level of each subscriber account (&quot;SaaS tenant&quot;).</p>
-						</dd>
-					</dl>
-				</div>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">GlobalNameFormatter</span>
+					</li>
+				</ul>
 			</section>
 			<section class="tsd-panel-group tsd-index-group">
 				<h2>Index</h2>
 				<section class="tsd-panel tsd-index-panel">
 					<div class="tsd-index-content">
 						<section class="tsd-index-section ">
-							<h3>Enumeration members</h3>
+							<h3>Constructors</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_sap_cloud_sdk_core.destinationorigin.html#provider" class="tsd-kind-icon">Provider</a></li>
-								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_sap_cloud_sdk_core.destinationorigin.html#subscriber" class="tsd-kind-icon">Subscriber</a></li>
+								<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="_sap_cloud_sdk_generator.globalnameformatter.html#constructor" class="tsd-kind-icon">constructor</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_sap_cloud_sdk_generator.globalnameformatter.html#uniquedirectoryname" class="tsd-kind-icon">unique<wbr>Directory<wbr>Name</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_sap_cloud_sdk_generator.globalnameformatter.html#uniquenpmpackagename" class="tsd-kind-icon">unique<wbr>Npm<wbr>Package<wbr>Name</a></li>
 							</ul>
 						</section>
 					</div>
 				</section>
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
-				<h2>Enumeration members</h2>
-				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
-					<a name="provider" class="tsd-anchor"></a>
-					<h3>Provider</h3>
-					<div class="tsd-signature tsd-kind-icon">Provider<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> =&nbsp;&quot;provider&quot;</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/SAP/cloud-sdk/blob/6397a86/packages/core/src/scp-cf/destination-service-types.ts#L156">core/src/scp-cf/destination-service-types.ts:156</a></li>
-						</ul>
-					</aside>
+				<h2>Constructors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class">
+					<a name="constructor" class="tsd-anchor"></a>
+					<h3>constructor</h3>
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Global<wbr>Name<wbr>Formatter<span class="tsd-signature-symbol">(</span>vdmMapping<span class="tsd-signature-symbol">: </span><a href="../interfaces/_sap_cloud_sdk_generator.vdmmapping.html" class="tsd-signature-type">VdmMapping</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_sap_cloud_sdk_generator.globalnameformatter.html" class="tsd-signature-type">GlobalNameFormatter</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/SAP/cloud-sdk/blob/6397a86/packages/generator/src/global-name-formatter.ts#L13">generator/src/global-name-formatter.ts:13</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>vdmMapping: <a href="../interfaces/_sap_cloud_sdk_generator.vdmmapping.html" class="tsd-signature-type">VdmMapping</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="_sap_cloud_sdk_generator.globalnameformatter.html" class="tsd-signature-type">GlobalNameFormatter</a></h4>
+						</li>
+					</ul>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
-					<a name="subscriber" class="tsd-anchor"></a>
-					<h3>Subscriber</h3>
-					<div class="tsd-signature tsd-kind-icon">Subscriber<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> =&nbsp;&quot;subscriber&quot;</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/SAP/cloud-sdk/blob/6397a86/packages/core/src/scp-cf/destination-service-types.ts#L155">core/src/scp-cf/destination-service-types.ts:155</a></li>
-						</ul>
-					</aside>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="uniquedirectoryname" class="tsd-anchor"></a>
+					<h3>unique<wbr>Directory<wbr>Name</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">unique<wbr>Directory<wbr>Name<span class="tsd-signature-symbol">(</span>directoryName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, originalFileName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/SAP/cloud-sdk/blob/6397a86/packages/generator/src/global-name-formatter.ts#L21">generator/src/global-name-formatter.ts:21</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>directoryName: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>originalFileName: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="uniquenpmpackagename" class="tsd-anchor"></a>
+					<h3>unique<wbr>Npm<wbr>Package<wbr>Name</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">unique<wbr>Npm<wbr>Package<wbr>Name<span class="tsd-signature-symbol">(</span>npmPackageName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, originalFileName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/SAP/cloud-sdk/blob/6397a86/packages/generator/src/global-name-formatter.ts#L25">generator/src/global-name-formatter.ts:25</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>npmPackageName: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>originalFileName: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+						</li>
+					</ul>
 				</section>
 			</section>
 		</div>
@@ -125,10 +186,10 @@
 					<li class=" tsd-kind-module">
 						<a href="../modules/sap_cloud_sdk_analytics">@sap-<wbr>cloud-<wbr>sdk/analytics</a>
 					</li>
-					<li class="current tsd-kind-module">
+					<li class=" tsd-kind-module">
 						<a href="../modules/sap_cloud_sdk_core">@sap-<wbr>cloud-<wbr>sdk/core</a>
 					</li>
-					<li class=" tsd-kind-module">
+					<li class="current tsd-kind-module">
 						<a href="../modules/sap_cloud_sdk_generator">@sap-<wbr>cloud-<wbr>sdk/generator</a>
 					</li>
 					<li class=" tsd-kind-module">
@@ -143,14 +204,17 @@
 				<ul class="before-current">
 				</ul>
 				<ul class="current">
-					<li class="current tsd-kind-enum tsd-parent-kind-module">
-						<a href="_sap_cloud_sdk_core.destinationorigin.html" class="tsd-kind-icon">Destination<wbr>Origin</a>
+					<li class="current tsd-kind-class tsd-parent-kind-module">
+						<a href="_sap_cloud_sdk_generator.globalnameformatter.html" class="tsd-kind-icon">Global<wbr>Name<wbr>Formatter</a>
 						<ul>
-							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-								<a href="_sap_cloud_sdk_core.destinationorigin.html#provider" class="tsd-kind-icon">Provider</a>
+							<li class=" tsd-kind-constructor tsd-parent-kind-class">
+								<a href="_sap_cloud_sdk_generator.globalnameformatter.html#constructor" class="tsd-kind-icon">constructor</a>
 							</li>
-							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-								<a href="_sap_cloud_sdk_core.destinationorigin.html#subscriber" class="tsd-kind-icon">Subscriber</a>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_sap_cloud_sdk_generator.globalnameformatter.html#uniquedirectoryname" class="tsd-kind-icon">unique<wbr>Directory<wbr>Name</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_sap_cloud_sdk_generator.globalnameformatter.html#uniquenpmpackagename" class="tsd-kind-icon">unique<wbr>Npm<wbr>Package<wbr>Name</a>
 							</li>
 						</ul>
 					</li>

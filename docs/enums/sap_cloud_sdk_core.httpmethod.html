@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>DestinationOrigin | SAP Cloud SDK for JavaScript / TypeScript</title>
+	<title>HttpMethod | SAP Cloud SDK for JavaScript / TypeScript</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -57,27 +57,16 @@
 					<a href="../modules/sap_cloud_sdk_core">@sap-cloud-sdk/core</a>
 				</li>
 				<li>
-					<a href="sap_cloud_sdk_core.destinationorigin">DestinationOrigin</a>
+					<a href="sap_cloud_sdk_core.httpmethod">HttpMethod</a>
 				</li>
 			</ul>
-			<h1>Enumeration DestinationOrigin</h1>
+			<h1>Enumeration HttpMethod</h1>
 		</div>
 	</div>
 </header>
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
-			<section class="tsd-panel tsd-comment">
-				<div class="tsd-comment tsd-typography">
-					<dl class="tsd-comment-tags">
-						<dt>deprecated</dt>
-						<dd><p>Since v1.0.1.</p>
-							<p>Represents the origin of a destination in a multi-tenant setup on SAP Cloud Platform.</p>
-							<p>In a multi-tenant application on SAP Cloud Platform, destinations can be defined both on provider account level (&quot;PaaS tenant&quot;) as well as on the level of each subscriber account (&quot;SaaS tenant&quot;).</p>
-						</dd>
-					</dl>
-				</div>
-			</section>
 			<section class="tsd-panel-group tsd-index-group">
 				<h2>Index</h2>
 				<section class="tsd-panel tsd-index-panel">
@@ -85,8 +74,13 @@
 						<section class="tsd-index-section ">
 							<h3>Enumeration members</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_sap_cloud_sdk_core.destinationorigin.html#provider" class="tsd-kind-icon">Provider</a></li>
-								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_sap_cloud_sdk_core.destinationorigin.html#subscriber" class="tsd-kind-icon">Subscriber</a></li>
+								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_sap_cloud_sdk_core.httpmethod.html#delete" class="tsd-kind-icon">DELETE</a></li>
+								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_sap_cloud_sdk_core.httpmethod.html#get" class="tsd-kind-icon">GET</a></li>
+								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_sap_cloud_sdk_core.httpmethod.html#head" class="tsd-kind-icon">HEAD</a></li>
+								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_sap_cloud_sdk_core.httpmethod.html#options" class="tsd-kind-icon">OPTIONS</a></li>
+								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_sap_cloud_sdk_core.httpmethod.html#patch" class="tsd-kind-icon">PATCH</a></li>
+								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_sap_cloud_sdk_core.httpmethod.html#post" class="tsd-kind-icon">POST</a></li>
+								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_sap_cloud_sdk_core.httpmethod.html#put" class="tsd-kind-icon">PUT</a></li>
 							</ul>
 						</section>
 					</div>
@@ -95,22 +89,72 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Enumeration members</h2>
 				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
-					<a name="provider" class="tsd-anchor"></a>
-					<h3>Provider</h3>
-					<div class="tsd-signature tsd-kind-icon">Provider<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> =&nbsp;&quot;provider&quot;</span></div>
+					<a name="delete" class="tsd-anchor"></a>
+					<h3>DELETE</h3>
+					<div class="tsd-signature tsd-kind-icon">DELETE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> =&nbsp;&quot;DELETE&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/SAP/cloud-sdk/blob/6397a86/packages/core/src/scp-cf/destination-service-types.ts#L156">core/src/scp-cf/destination-service-types.ts:156</a></li>
+							<li>Defined in <a href="https://github.com/SAP/cloud-sdk/blob/6397a86/packages/core/src/http-client/http-client-types.ts#L17">core/src/http-client/http-client-types.ts:17</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
-					<a name="subscriber" class="tsd-anchor"></a>
-					<h3>Subscriber</h3>
-					<div class="tsd-signature tsd-kind-icon">Subscriber<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> =&nbsp;&quot;subscriber&quot;</span></div>
+					<a name="get" class="tsd-anchor"></a>
+					<h3>GET</h3>
+					<div class="tsd-signature tsd-kind-icon">GET<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> =&nbsp;&quot;GET&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/SAP/cloud-sdk/blob/6397a86/packages/core/src/scp-cf/destination-service-types.ts#L155">core/src/scp-cf/destination-service-types.ts:155</a></li>
+							<li>Defined in <a href="https://github.com/SAP/cloud-sdk/blob/6397a86/packages/core/src/http-client/http-client-types.ts#L16">core/src/http-client/http-client-types.ts:16</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+					<a name="head" class="tsd-anchor"></a>
+					<h3>HEAD</h3>
+					<div class="tsd-signature tsd-kind-icon">HEAD<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> =&nbsp;&quot;HEAD&quot;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/SAP/cloud-sdk/blob/6397a86/packages/core/src/http-client/http-client-types.ts#L18">core/src/http-client/http-client-types.ts:18</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+					<a name="options" class="tsd-anchor"></a>
+					<h3>OPTIONS</h3>
+					<div class="tsd-signature tsd-kind-icon">OPTIONS<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> =&nbsp;&quot;OPTIONS&quot;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/SAP/cloud-sdk/blob/6397a86/packages/core/src/http-client/http-client-types.ts#L19">core/src/http-client/http-client-types.ts:19</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+					<a name="patch" class="tsd-anchor"></a>
+					<h3>PATCH</h3>
+					<div class="tsd-signature tsd-kind-icon">PATCH<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> =&nbsp;&quot;PATCH&quot;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/SAP/cloud-sdk/blob/6397a86/packages/core/src/http-client/http-client-types.ts#L22">core/src/http-client/http-client-types.ts:22</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+					<a name="post" class="tsd-anchor"></a>
+					<h3>POST</h3>
+					<div class="tsd-signature tsd-kind-icon">POST<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> =&nbsp;&quot;POST&quot;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/SAP/cloud-sdk/blob/6397a86/packages/core/src/http-client/http-client-types.ts#L20">core/src/http-client/http-client-types.ts:20</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+					<a name="put" class="tsd-anchor"></a>
+					<h3>PUT</h3>
+					<div class="tsd-signature tsd-kind-icon">PUT<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> =&nbsp;&quot;PUT&quot;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/SAP/cloud-sdk/blob/6397a86/packages/core/src/http-client/http-client-types.ts#L21">core/src/http-client/http-client-types.ts:21</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -144,13 +188,28 @@
 				</ul>
 				<ul class="current">
 					<li class="current tsd-kind-enum tsd-parent-kind-module">
-						<a href="_sap_cloud_sdk_core.destinationorigin.html" class="tsd-kind-icon">Destination<wbr>Origin</a>
+						<a href="_sap_cloud_sdk_core.httpmethod.html" class="tsd-kind-icon">Http<wbr>Method</a>
 						<ul>
 							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-								<a href="_sap_cloud_sdk_core.destinationorigin.html#provider" class="tsd-kind-icon">Provider</a>
+								<a href="_sap_cloud_sdk_core.httpmethod.html#delete" class="tsd-kind-icon">DELETE</a>
 							</li>
 							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-								<a href="_sap_cloud_sdk_core.destinationorigin.html#subscriber" class="tsd-kind-icon">Subscriber</a>
+								<a href="_sap_cloud_sdk_core.httpmethod.html#get" class="tsd-kind-icon">GET</a>
+							</li>
+							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+								<a href="_sap_cloud_sdk_core.httpmethod.html#head" class="tsd-kind-icon">HEAD</a>
+							</li>
+							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+								<a href="_sap_cloud_sdk_core.httpmethod.html#options" class="tsd-kind-icon">OPTIONS</a>
+							</li>
+							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+								<a href="_sap_cloud_sdk_core.httpmethod.html#patch" class="tsd-kind-icon">PATCH</a>
+							</li>
+							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+								<a href="_sap_cloud_sdk_core.httpmethod.html#post" class="tsd-kind-icon">POST</a>
+							</li>
+							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+								<a href="_sap_cloud_sdk_core.httpmethod.html#put" class="tsd-kind-icon">PUT</a>
 							</li>
 						</ul>
 					</li>
