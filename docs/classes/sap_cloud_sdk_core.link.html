@@ -79,14 +79,14 @@
 					can be passed as argument to the select function, e.g. <code>BusinessPartner.TO_CUSTOMER</code>.</p>
 					<p>NOTE: the Link class represents navigation properties with a 1:n cardinality.
 					For navigation properties with a 1:0..1 cardinality, see <a href="sap_cloud_sdk_core.onetoonelink">OneToOneLink</a>.</p>
-					<p>See also: <a href="../modules/_sap_cloud_sdk_core.html#selectable">Selectable</a></p>
+					<p>See also: <a href="../modules/sap_cloud_sdk_core#selectable">Selectable</a></p>
 				</div>
 			</section>
 			<section class="tsd-panel tsd-type-parameters">
 				<h3>Type parameters</h3>
 				<ul class="tsd-type-parameters">
 					<li>
-						<h4>EntityT<span class="tsd-signature-symbol">: </span><a href="_sap_cloud_sdk_core.entity.html" class="tsd-signature-type">Entity</a></h4>
+						<h4>EntityT<span class="tsd-signature-symbol">: </span><a href="sap_cloud_sdk_core.entity" class="tsd-signature-type">Entity</a></h4>
 						<div class="tsd-comment tsd-typography">
 							<div class="lead">
 								<p>Type of the entity to be linked from</p>
@@ -94,7 +94,7 @@
 						</div>
 					</li>
 					<li>
-						<h4>LinkedEntityT<span class="tsd-signature-symbol">: </span><a href="_sap_cloud_sdk_core.entity.html" class="tsd-signature-type">Entity</a></h4>
+						<h4>LinkedEntityT<span class="tsd-signature-symbol">: </span><a href="sap_cloud_sdk_core.entity" class="tsd-signature-type">Entity</a></h4>
 						<div class="tsd-comment tsd-typography">
 							<div class="lead">
 								<p>Type of the entity to be linked to</p>
@@ -110,7 +110,7 @@
 						<span class="target">Link</span>
 						<ul class="tsd-hierarchy">
 							<li>
-								<a href="_sap_cloud_sdk_core.onetoonelink.html" class="tsd-signature-type">OneToOneLink</a>
+								<a href="sap_cloud_sdk_core.onetoonelink" class="tsd-signature-type">OneToOneLink</a>
 							</li>
 						</ul>
 					</li>
@@ -129,23 +129,23 @@
 						<section class="tsd-index-section ">
 							<h3>Constructors</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="_sap_cloud_sdk_core.link.html#constructor" class="tsd-kind-icon">constructor</a></li>
+								<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="sap_cloud_sdk_core.link#constructor" class="tsd-kind-icon">constructor</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_sap_cloud_sdk_core.link.html#_entityconstructor" class="tsd-kind-icon">_entity<wbr>Constructor</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_sap_cloud_sdk_core.link.html#_fieldname" class="tsd-kind-icon">_field<wbr>Name</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_sap_cloud_sdk_core.link.html#_linkedentity" class="tsd-kind-icon">_linked<wbr>Entity</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_sap_cloud_sdk_core.link.html#selects" class="tsd-kind-icon">selects</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="sap_cloud_sdk_core.link#_entityconstructor" class="tsd-kind-icon">_entity<wbr>Constructor</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="sap_cloud_sdk_core.link#_fieldname" class="tsd-kind-icon">_field<wbr>Name</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="sap_cloud_sdk_core.link#_linkedentity" class="tsd-kind-icon">_linked<wbr>Entity</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="sap_cloud_sdk_core.link#selects" class="tsd-kind-icon">selects</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section ">
 							<h3>Methods</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_sap_cloud_sdk_core.link.html#select" class="tsd-kind-icon">select</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-static"><a href="_sap_cloud_sdk_core.link.html#clone" class="tsd-kind-icon">clone</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="sap_cloud_sdk_core.link#select" class="tsd-kind-icon">select</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-static"><a href="sap_cloud_sdk_core.link#clone" class="tsd-kind-icon">clone</a></li>
 							</ul>
 						</section>
 					</div>
@@ -157,7 +157,7 @@
 					<a name="constructor" class="tsd-anchor"></a>
 					<h3>constructor</h3>
 					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">new <wbr>Link<span class="tsd-signature-symbol">(</span>_fieldName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, _entityConstructor<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Constructable</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">EntityT</span><span class="tsd-signature-symbol">&gt;</span>, _linkedEntity<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Constructable</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">LinkedEntityT</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_sap_cloud_sdk_core.link.html" class="tsd-signature-type">Link</a></li>
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Link<span class="tsd-signature-symbol">(</span>_fieldName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, _entityConstructor<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Constructable</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">EntityT</span><span class="tsd-signature-symbol">&gt;</span>, _linkedEntity<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Constructable</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">LinkedEntityT</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="sap_cloud_sdk_core.link" class="tsd-signature-type">Link</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -198,7 +198,7 @@
 									</div>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="_sap_cloud_sdk_core.link.html" class="tsd-signature-type">Link</a></h4>
+							<h4 class="tsd-returns-title">Returns <a href="sap_cloud_sdk_core.link" class="tsd-signature-type">Link</a></h4>
 						</li>
 					</ul>
 				</section>
@@ -253,7 +253,7 @@
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="selects" class="tsd-anchor"></a>
 					<h3>selects</h3>
-					<div class="tsd-signature tsd-kind-icon">selects<span class="tsd-signature-symbol">:</span> <a href="../modules/_sap_cloud_sdk_core.html#selectable" class="tsd-signature-type">Selectable</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">LinkedEntityT</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></div>
+					<div class="tsd-signature tsd-kind-icon">selects<span class="tsd-signature-symbol">:</span> <a href="../modules/sap_cloud_sdk_core#selectable" class="tsd-signature-type">Selectable</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">LinkedEntityT</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
 							<li>Defined in <a href="https://github.com/SAP/cloud-sdk/blob/4934767/packages/core/src/selectable/link.ts#L44">core/src/selectable/link.ts:44</a></li>
@@ -272,7 +272,7 @@
 					<a name="select" class="tsd-anchor"></a>
 					<h3>select</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">select<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>selects<span class="tsd-signature-symbol">: </span><a href="../modules/_sap_cloud_sdk_core.html#selectable" class="tsd-signature-type">Selectable</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">LinkedEntityT</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_sap_cloud_sdk_core.link.html" class="tsd-signature-type">Link</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">EntityT</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">LinkedEntityT</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">select<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>selects<span class="tsd-signature-symbol">: </span><a href="../modules/sap_cloud_sdk_core#selectable" class="tsd-signature-type">Selectable</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">LinkedEntityT</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="sap_cloud_sdk_core.link" class="tsd-signature-type">Link</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">EntityT</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">LinkedEntityT</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -283,20 +283,20 @@
 							</aside>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
-									<p>Creates a selection on a linked entity. Has the same behavior as <a href="_sap_cloud_sdk_core.getallrequestbuilder.html#select">GetAllRequestBuilder.select</a> and <a href="_sap_cloud_sdk_core.getbykeyrequestbuilder.html#select">GetByKeyRequestBuilder.select</a> but for linked entities.</p>
+									<p>Creates a selection on a linked entity. Has the same behavior as <a href="sap_cloud_sdk_core.getallrequestbuilder#select">GetAllRequestBuilder.select</a> and <a href="sap_cloud_sdk_core.getbykeyrequestbuilder#select">GetByKeyRequestBuilder.select</a> but for linked entities.</p>
 								</div>
-								<p>See also, <a href="../modules/_sap_cloud_sdk_core.html#selectable">Selectable</a></p>
+								<p>See also, <a href="../modules/sap_cloud_sdk_core#selectable">Selectable</a></p>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5><span class="tsd-flag ts-flagRest">Rest</span> <span class="tsd-signature-symbol">...</span>selects: <a href="../modules/_sap_cloud_sdk_core.html#selectable" class="tsd-signature-type">Selectable</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">LinkedEntityT</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span></h5>
+									<h5><span class="tsd-flag ts-flagRest">Rest</span> <span class="tsd-signature-symbol">...</span>selects: <a href="../modules/sap_cloud_sdk_core#selectable" class="tsd-signature-type">Selectable</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">LinkedEntityT</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span></h5>
 									<div class="tsd-comment tsd-typography">
 										<p>Selection of fields or links on a linked entity</p>
 									</div>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="_sap_cloud_sdk_core.link.html" class="tsd-signature-type">Link</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">EntityT</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">LinkedEntityT</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <a href="sap_cloud_sdk_core.link" class="tsd-signature-type">Link</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">EntityT</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">LinkedEntityT</span><span class="tsd-signature-symbol">&gt;</span></h4>
 							<p>The link itself, to facilitate method chaining</p>
 						</li>
 					</ul>
@@ -305,7 +305,7 @@
 					<a name="clone" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagStatic">Static</span> clone</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-static">
-						<li class="tsd-signature tsd-kind-icon">clone&lt;EntityT, LinkedEntityT&gt;<span class="tsd-signature-symbol">(</span>link<span class="tsd-signature-symbol">: </span><a href="_sap_cloud_sdk_core.link.html" class="tsd-signature-type">Link</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">EntityT</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">LinkedEntityT</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_sap_cloud_sdk_core.link.html" class="tsd-signature-type">Link</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">EntityT</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">LinkedEntityT</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">clone&lt;EntityT, LinkedEntityT&gt;<span class="tsd-signature-symbol">(</span>link<span class="tsd-signature-symbol">: </span><a href="sap_cloud_sdk_core.link" class="tsd-signature-type">Link</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">EntityT</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">LinkedEntityT</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="sap_cloud_sdk_core.link" class="tsd-signature-type">Link</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">EntityT</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">LinkedEntityT</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -322,13 +322,13 @@
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
 							<ul class="tsd-type-parameters">
 								<li>
-									<h4>EntityT<span class="tsd-signature-symbol">: </span><a href="_sap_cloud_sdk_core.entity.html" class="tsd-signature-type">Entity</a></h4>
+									<h4>EntityT<span class="tsd-signature-symbol">: </span><a href="sap_cloud_sdk_core.entity" class="tsd-signature-type">Entity</a></h4>
 									<div class="tsd-comment tsd-typography">
 										<p>Type of the entity to be linked from</p>
 									</div>
 								</li>
 								<li>
-									<h4>LinkedEntityT<span class="tsd-signature-symbol">: </span><a href="_sap_cloud_sdk_core.entity.html" class="tsd-signature-type">Entity</a></h4>
+									<h4>LinkedEntityT<span class="tsd-signature-symbol">: </span><a href="sap_cloud_sdk_core.entity" class="tsd-signature-type">Entity</a></h4>
 									<div class="tsd-comment tsd-typography">
 										<p>Type of the entity to be linked to</p>
 									</div>
@@ -337,13 +337,13 @@
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>link: <a href="_sap_cloud_sdk_core.link.html" class="tsd-signature-type">Link</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">EntityT</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">LinkedEntityT</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<h5>link: <a href="sap_cloud_sdk_core.link" class="tsd-signature-type">Link</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">EntityT</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">LinkedEntityT</span><span class="tsd-signature-symbol">&gt;</span></h5>
 									<div class="tsd-comment tsd-typography">
 										<p>Link to be cloned</p>
 									</div>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="_sap_cloud_sdk_core.link.html" class="tsd-signature-type">Link</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">EntityT</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">LinkedEntityT</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <a href="sap_cloud_sdk_core.link" class="tsd-signature-type">Link</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">EntityT</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">LinkedEntityT</span><span class="tsd-signature-symbol">&gt;</span></h4>
 							<p>Newly created link</p>
 						</li>
 					</ul>
@@ -378,28 +378,28 @@
 				</ul>
 				<ul class="current">
 					<li class="current tsd-kind-class tsd-parent-kind-module tsd-has-type-parameter">
-						<a href="_sap_cloud_sdk_core.link.html" class="tsd-kind-icon">Link</a>
+						<a href="sap_cloud_sdk_core.link" class="tsd-kind-icon">Link</a>
 						<ul>
 							<li class=" tsd-kind-constructor tsd-parent-kind-class">
-								<a href="_sap_cloud_sdk_core.link.html#constructor" class="tsd-kind-icon">constructor</a>
+								<a href="sap_cloud_sdk_core.link#constructor" class="tsd-kind-icon">constructor</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
-								<a href="_sap_cloud_sdk_core.link.html#_entityconstructor" class="tsd-kind-icon">_entity<wbr>Constructor</a>
+								<a href="sap_cloud_sdk_core.link#_entityconstructor" class="tsd-kind-icon">_entity<wbr>Constructor</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
-								<a href="_sap_cloud_sdk_core.link.html#_fieldname" class="tsd-kind-icon">_field<wbr>Name</a>
+								<a href="sap_cloud_sdk_core.link#_fieldname" class="tsd-kind-icon">_field<wbr>Name</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
-								<a href="_sap_cloud_sdk_core.link.html#_linkedentity" class="tsd-kind-icon">_linked<wbr>Entity</a>
+								<a href="sap_cloud_sdk_core.link#_linkedentity" class="tsd-kind-icon">_linked<wbr>Entity</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
-								<a href="_sap_cloud_sdk_core.link.html#selects" class="tsd-kind-icon">selects</a>
+								<a href="sap_cloud_sdk_core.link#selects" class="tsd-kind-icon">selects</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class">
-								<a href="_sap_cloud_sdk_core.link.html#select" class="tsd-kind-icon">select</a>
+								<a href="sap_cloud_sdk_core.link#select" class="tsd-kind-icon">select</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-static">
-								<a href="_sap_cloud_sdk_core.link.html#clone" class="tsd-kind-icon">clone</a>
+								<a href="sap_cloud_sdk_core.link#clone" class="tsd-kind-icon">clone</a>
 							</li>
 						</ul>
 					</li>
